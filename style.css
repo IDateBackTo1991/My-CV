@@ -1,6 +1,45 @@
+html {
+    background-color: seagreen;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+}
+
+.aa-it {
+    text-align: left;
+}
+
+.ba-ge {
+    text-align: left;
+}
+
+main > * {
+    flex: 1;
+    background-color: green;
+    border: 10px solid black;
+}
+
+.education-and-skills-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.education-and-skills-background > * {
+    flex: 1;
+}
+
+.skills-text-align > ul {
+    text-align: left;
+}
+
+
 img {
     height: 350px;
     float: right;
     border: 5px solid;
-    padding: 10px;
 }
