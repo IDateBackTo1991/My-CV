@@ -43,3 +43,10 @@ img {
     float: right;
     border: 5px solid;
 }
+
+@media (max-width: 500px) {
+    img {
+        float: none;
+        width: 100%;
+    }
+}
