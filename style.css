@@ -27,6 +27,7 @@ main > * {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 }
 
 .education-and-skills-background > * {
@@ -36,6 +37,18 @@ main > * {
 .skills-text-align > ul {
     text-align: left;
 }
+
+/*.experience {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.experience > * {
+    flex: 1;
+    flex-basis: 100%;
+}*/
 
 
 img {
@@ -48,5 +61,10 @@ img {
     img {
         float: none;
         width: 100%;
+    }
+
+    .education-and-skills-background {
+
+        flex-direction: column;
     }
 }
