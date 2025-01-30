@@ -50,6 +50,9 @@ main > * {
     flex-basis: 100%;
 }*/
 
+.experience h3 {
+    text-align: center;
+}
 
 img {
     height: 350px;
