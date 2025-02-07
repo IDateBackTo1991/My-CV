@@ -27,6 +27,7 @@ main > * {
     flex: 1;
     background-color: green;
     border: 10px solid black;
+    border-radius: 0.5rem;
 }
 
 .education-and-skills-background {
